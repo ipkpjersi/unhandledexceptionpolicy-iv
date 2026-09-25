@@ -32,5 +32,5 @@ itself is native and never reads it.
 This does not fix any underlying defect. It stops one class of defect from taking the whole
 game down, which buys time to fix the real thing. For the leak that motivated it, see [lcpdfr-1.1-audiofix](https://github.com/ipkpjersi/lcpdfr-1.1-audiofix).
 
-Verify it is actually in effect with [throwtest](https://github.com/ipkpjersi/throwtest), which throws on a bare
+Verify it is actually in effect with [throwtest](https://github.com/ipkpjersi/throwtest-iv), which throws on a bare
 thread on purpose.
